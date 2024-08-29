@@ -1,0 +1,14 @@
+.col > a {
+    text-decoration: none;
+    color: black;
+}
+
+#second {
+    display: none;
+}
+
+.div-for-first {
+    width: 200px;
+    height: 150px;
+    margin: 200px auto;
+}
