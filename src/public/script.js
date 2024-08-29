@@ -23,7 +23,7 @@ const elementsArray = [
 
 firstButton.addEventListener('click', async () => {
     try {
-        const response = await fetch("http://localhost:3040/products");
+        const response = await fetch("http://135.181.37.152:3003/products");
         if (!response.ok) {
           throw new Error(`Response status: ${response.status}`);
         }
