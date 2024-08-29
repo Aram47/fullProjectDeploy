@@ -4,7 +4,7 @@ const bodyParser    = require('body-parser');
 const {client}      = require('./core/db');
 const Products      = require('./controllers/Products');
 const app           = express();
-const PORT          = process.env.PORT || 3040;
+const PORT          = process.env.PORT || 3003;
 
 client.connect();
 app.use(express.static(__dirname + '/public'));
